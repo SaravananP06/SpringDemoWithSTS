@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.bridgelabz.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HelloWorldApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Hello Saravanan");	
 		SpringApplication.run(HelloWorldApplication.class, args);
 	}
 
